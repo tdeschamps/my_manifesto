@@ -1,0 +1,139 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:100,400,700");
+/* line 18, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+h1 {
+  font-weight: 100; }
+
+/* line 21, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 100px;
+  perspective: 100px; }
+
+/* line 29, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+/* line 36, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+.parallax__layer--base {
+  z-index: 4; }
+
+/* line 39, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+.parallax__layer--back {
+  z-index: 3; }
+
+/* line 42, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+.parallax__group {
+  position: relative;
+  height: 100vh; }
+
+/* line 46, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+.title {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+  font-family: "Montserrat"; }
+
+/* line 58, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+#group1 {
+  z-index: 5; }
+  /* line 60, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group1 .parallax__layer--base {
+    background: url("../images/group1_base.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 4; }
+
+/* line 65, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+#group2 {
+  z-index: 3; }
+  /* line 67, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group2 .parallax__layer--base {
+    background: url("../images/group2_base.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 4; }
+  /* line 71, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group2 .parallax__layer--back {
+    background: url("../images/group3_base.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 3; }
+
+/* line 76, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+#group3 {
+  z-index: 4; }
+  /* line 78, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group3 .parallax__layer--base {
+    background: url("../images/group2_back.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 4; }
+  /* line 82, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group3 .parallax__layer--back {
+    background: url("../images/group3_back.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 3; }
+
+/* line 87, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+#group4 {
+  z-index: 4; }
+  /* line 89, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group4 .parallax__layer--base {
+    background: url("../images/group4_base.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 4; }
+  /* line 93, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group4 .parallax__layer--back {
+    background: url("../images/group4_back.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 3; }
+
+/* line 98, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+#group5 {
+  z-index: 4; }
+  /* line 100, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group5 .parallax__layer--base {
+    background: url("../images/group5_base.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 4; }
+  /* line 104, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group5 .parallax__layer--back {
+    background: url("../images/group4_back.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 3; }
