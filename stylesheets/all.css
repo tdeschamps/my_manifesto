@@ -131,7 +131,47 @@ h1 {
     z-index: 4; }
   /* line 104, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
   #group5 .parallax__layer--back {
-    background: url("../images/group4_back.jpg") no-repeat top center;
+    background: url("../images/group5_back.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 3; }
+
+/* line 109, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+#group6 {
+  z-index: 4; }
+  /* line 111, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group6 .parallax__layer--base {
+    background: url("../images/group6_base.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 4; }
+  /* line 115, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group6 .parallax__layer--back {
+    background: url("../images/group6_back.jpeg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 3; }
+
+/* line 120, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+#group7 {
+  z-index: 4; }
+  /* line 122, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group7 .parallax__layer--base {
+    background: url("../images/group7_base.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 4; }
+  /* line 126, /Users/thomasdscmps/Desktop/manifesto_artviser/my_manifesto/source/stylesheets/all.css.scss */
+  #group7 .parallax__layer--back {
+    background: url("../images/group7_back.jpeg") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
